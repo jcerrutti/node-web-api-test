@@ -43,7 +43,7 @@ describe('POST /todos', () => {
             });
     });
 
-    it('Should not create todo with invalid body status', (done) => {
+    it('should not create todo with invalid body status', (done) => {
         request(app)
             .post('/todos')
             .send({})
@@ -52,7 +52,6 @@ describe('POST /todos', () => {
                 if (err) {
                     return done(err);
                 }
-
                 Todo.find().then((todos) => {
                     expect(todos.length).toBe(2);
                     done();
