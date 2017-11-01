@@ -11,3 +11,7 @@ Command: ./mongod --dbpath ~/mongo-data/
 Path: /c/Program Files/MongoDB/Server/3.4/bin
 
 Command: mongod.exe --dbpath H:\Programacion\mongo-data
+
+# Add Heroku Account
+
+heroku git:remote -a aqueous-waters-77539
