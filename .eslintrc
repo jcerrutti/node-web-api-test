@@ -6,7 +6,8 @@
   "env": {
     "node": true,
     "browser": true,
-    "es6": true
+    "es6": true,
+    "mocha": true
   },
   "rules": {
     "comma-dangle": [
@@ -14,7 +15,11 @@
       "never"
     ],
     "linebreak-style": "off",
+    "consistent-return": "off",
+    "prefer-destructuring": "off",
     "indent": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
     "no-unused-vars": [
       "warn",
       {
