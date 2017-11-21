@@ -20,6 +20,7 @@
     "indent": "off",
     "no-shadow": "off",
     "no-underscore-dangle": "off",
+    "prefer-arrow-callback": "off",
     "func-names": "off",
     "no-unused-vars": [
       "warn",
